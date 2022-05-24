@@ -1,12 +1,10 @@
 package uk.co.cdl.checkout.entity;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Builder
 @ToString
+@EqualsAndHashCode
 public class Offers {
 
     @Getter @Setter

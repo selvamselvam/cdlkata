@@ -1,6 +1,7 @@
 package uk.co.cdl.checkout.entity;
 
 import lombok.Builder;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Builder
+@EqualsAndHashCode
 public class Basket {
 
     // Product : Count
